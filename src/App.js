@@ -2,6 +2,8 @@ import React from 'react';
 import CounterClass from './CounterClass';
 import CounterHooks from './CounterHooks';
 import Toogler from './Toggler';
+import SimpleFormClass from './SimpleFormClass';
+import SimpleFormHooks from './SimpleFormHooks';
 import './App.css';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
 			<CounterClass />
 			<CounterHooks />
 			<Toogler />
+			<SimpleFormClass />
+			<SimpleFormHooks />
 		</div>
 	);
 }
