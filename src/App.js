@@ -4,6 +4,7 @@ import CounterHooks from './CounterHooks';
 import Toogler from './Toggler';
 import SimpleFormClass from './SimpleFormClass';
 import SimpleFormHooks from './SimpleFormHooks';
+import SimpleFormInputHook from './SimpleFormInputHook';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 			<Toogler />
 			<SimpleFormClass />
 			<SimpleFormHooks />
+			<SimpleFormInputHook />
 		</div>
 	);
 }
