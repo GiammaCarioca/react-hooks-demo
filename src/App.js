@@ -5,7 +5,9 @@ import React from 'react';
 // import SimpleFormClass from './SimpleFormClass';
 // import SimpleFormHooks from './SimpleFormHooks';
 // import SimpleFormInputHook from './SimpleFormInputHook';
-import Clicker from './Clicker';
+// import Clicker from './Clicker';
+import SWMovies from './SWMovies';
+
 import './App.css';
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
 			<Toogler />
 			<SimpleFormClass />
 			<SimpleFormHooks />
-			<SimpleFormInputHook /> */}
-			<Clicker />
+			<SimpleFormInputHook /> 
+			<Clicker /> */}
+			<SWMovies />
 		</div>
 	);
 }
